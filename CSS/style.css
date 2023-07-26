@@ -1,0 +1,25 @@
+nav {
+  background-color: burlywood;
+}
+
+body {
+  background-color: bisque;
+}
+
+.rotate img {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  width: 100%;
+  /* grâce à width 100% et height 100%, c'est responsive ! */
+  height: 100%;
+  border-radius: 40px;
+}
+
+.rotate :hover img {
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+  margin-bottom: 80px;
+
+}
